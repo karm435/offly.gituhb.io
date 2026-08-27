@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Offline Music Player for iPhone &amp; iPad | Offly (Free)</title>
+  <meta name="description" content="Free offline music player for iPhone and iPad. Play MP3, FLAC, and MP4 files you own. CarPlay, Siri, and widgets. No streaming account. No internet required.">
+  <meta name="theme-color" content="#F6F1E6">
+  <meta name="color-scheme" content="light">
+  <meta name="apple-mobile-web-app-title" content="Offly">
+  <!-- After Search Console verification, paste: <meta name="google-site-verification" content="TOKEN"> -->
+  <link rel="canonical" href="https://karmaacademy.github.io/Offly/">
+  <link rel="sitemap" type="application/xml" href="https://karmaacademy.github.io/Offly/sitemap.xml">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="Offly">
+  <meta property="og:title" content="Offline Music Player for iPhone and iPad | Offly">
+  <meta property="og:description" content="Play your own MP3, FLAC, and MP4 files on iPhone, iPad, and CarPlay. Fully offline. Free to use.">
+  <meta property="og:url" content="https://karmaacademy.github.io/Offly/">
+  <meta property="og:image" content="https://karmaacademy.github.io/Offly/assets/img/og.jpg">
+  <meta property="og:image:alt" content="Offly cassette player and iPhone library for offline music and video.">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Offline Music Player for iPhone and iPad | Offly">
+  <meta name="twitter:description" content="Play your own files on iPhone, iPad, and CarPlay. No streaming account. Free to use.">
+  <meta name="twitter:image" content="https://karmaacademy.github.io/Offly/assets/img/og.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="image" href="assets/img/shots/iphone-offline-hero.jpg">
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=Figtree:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://karmaacademy.github.io/Offly/#website",
+        "name": "Offly",
+        "alternateName": ["Offly offline music player", "Off-lee"],
+        "url": "https://karmaacademy.github.io/Offly/",
+        "inLanguage": "en-US",
+        "publisher": { "@id": "https://karmaacademy.github.io/Offly/#org" }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://karmaacademy.github.io/Offly/#org",
+        "name": "Karma Academy",
+        "url": "https://github.com/KarmaAcademy",
+        "logo": "https://karmaacademy.github.io/Offly/assets/img/icon.png",
+        "sameAs": ["https://github.com/KarmaAcademy/Offly"]
+      },
+      {
+        "@type": ["SoftwareApplication", "MobileApplication"],
+        "@id": "https://karmaacademy.github.io/Offly/#app",
+        "name": "Offly",
+        "alternateName": "Offly offline music player",
+        "url": "https://karmaacademy.github.io/Offly/",
+        "applicationCategory": "MultimediaApplication",
+        "applicationSubCategory": "MusicApplication",
+        "operatingSystem": "iOS 18, iPadOS 18",
+        "downloadUrl": "https://testflight.apple.com/join/6B8r9tuU",
+        "installUrl": "https://testflight.apple.com/join/6B8r9tuU",
+        "author": { "@id": "https://karmaacademy.github.io/Offly/#org" },
+        "description": "Free offline music player for iPhone and iPad. Play local MP3, FLAC, and MP4 files from the Files app, linked folders, iCloud Drive, or Wi-Fi. Includes CarPlay, Siri, widgets, a ten-band equalizer, and crossfade.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "featureList": [
+          "Offline music and video playback",
+          "MP3, FLAC, AAC, WAV, M4A, MP4, MOV, M4V",
+          "Import from Files and Photos",
+          "Link folders including iCloud Drive without copying",
+          "Wi-Fi transfer from a Mac or PC browser",
+          "Apple Music downloads already on the device",
+          "CarPlay",
+          "Siri and Shortcuts",
+          "Home Screen widgets",
+          "Five Looks including Cassette Pop",
+          "Ten-band equalizer",
+          "Crossfade",
+          "Sleep timer",
+          "AirPlay and Picture in Picture",
+          "Playlists that remember your place"
+        ],
+        "screenshot": [
+          "https://karmaacademy.github.io/Offly/assets/img/shots/iphone-offline.jpg",
+          "https://karmaacademy.github.io/Offly/assets/img/shots/iphone-carplay.jpg",
+          "https://karmaacademy.github.io/Offly/assets/img/shots/iphone-wifi.jpg"
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is an offline music player?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "An offline music player plays audio files stored on the device or in a folder you can reach without a network. Offly is a free offline music player for iPhone and iPad. You import or link the files you already own. Playback does not need a streaming account or a data connection."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Offly a free offline music player?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Offly is free to use on iPhone and iPad. You can import your library, play audio and video offline, use CarPlay, Siri, widgets, the equalizer, and Wi-Fi transfer without paying to play your own files."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can Offly play MP3 and FLAC files on iPhone without internet?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Offly plays local audio including MP3, FLAC, AAC, WAV, M4A, AIFF, CAF, and OGG. Playback does not need a network connection once the files are on the device or in a linked folder you can reach offline."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Offly play video as well as music?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Offly is an offline media player for films and music. It plays MP4, MOV, and M4V, with Picture in Picture and AirPlay when the system supports them."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I play files from the Files app or iCloud Drive?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Import titles from Files or Photos, or link a folder including iCloud Drive. Linked folders play in place. Offly does not copy those files onto the iPhone just to list them."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Offly work with CarPlay and Siri?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Offly has a CarPlay library with Continue, Playlists, and Favorites. You can say “Hey Siri, continue in Offly” from the lock screen, and Home Screen widgets keep playback on the cassette player."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="index.html">
+        <img src="assets/img/icon.png" width="256" height="256" alt="" aria-hidden="true">
+        <span>
+          <span class="brand-name">Offly</span>
+          <span class="brand-meta">Free to use</span>
+        </span>
+      </a>
+      <div class="nav-end">
+        <a class="btn btn-primary nav-cta-compact" href="https://testflight.apple.com/join/6B8r9tuU">Get Offly free</a>
+        <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+          <span></span>
+        </button>
+      </div>
+      <ul id="site-nav" class="nav-links" data-nav-links>
+        <li><a href="#library">Library</a></li>
+        <li><a href="#everywhere">CarPlay</a></li>
+        <li><a href="#looks">Looks</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="privacy.html">Privacy</a></li>
+        <li><a class="btn btn-primary" href="https://testflight.apple.com/join/6B8r9tuU">Get Offly free</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="eyebrow"><span class="pill">Free</span> iPhone · iPad · CarPlay</p>
+          <h1>Your offline music player.</h1>
+          <p class="lede">Offly is a free offline music player for iPhone and iPad. It also plays video. Import MP3, FLAC, and MP4 files you already own. No streaming account. No internet required.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="https://testflight.apple.com/join/6B8r9tuU">Get Offly free</a>
+            <a class="btn btn-ghost" href="#library">See the features</a>
+          </div>
+          <p class="hero-note">Public beta on TestFlight. Plays your files without a subscription.</p>
+        </div>
+        <div class="hero-stage">
+          <img class="hero-shot" src="assets/img/shots/iphone-offline-hero.jpg" width="880" height="1262" alt="Offly on iPhone: an offline library of films, albums, and lectures with Overview, Artists, and Playlists." fetchpriority="high">
+        </div>
+      </div>
+    </section>
+
+    <div class="formats">
+      <ul class="formats-list" aria-label="Supported formats">
+        <li>MP3</li>
+        <li>FLAC</li>
+        <li>AAC</li>
+        <li>WAV</li>
+        <li>M4A</li>
+        <li>AIFF</li>
+        <li>MP4</li>
+        <li>MOV</li>
+        <li>M4V</li>
+        <li>OGG</li>
+        <li>CAF</li>
+        <li>Offline</li>
+      </ul>
+    </div>
+
+    <section class="section" id="gallery" aria-labelledby="gallery-title">
+      <div class="wrap section-head">
+        <span class="side-mark">Gallery</span>
+        <div>
+          <p class="eyebrow">iPhone</p>
+          <h2 id="gallery-title">The player, in eight frames.</h2>
+        </div>
+      </div>
+      <div class="rail-wrap">
+        <div class="rail">
+          <a href="#library"><img src="assets/img/shots/iphone-offline.jpg" width="880" height="1912" alt="Your media, fully offline." loading="lazy"><span>Offline library</span></a>
+          <a href="#library"><img src="assets/img/shots/iphone-library.jpg" width="880" height="1912" alt="Files, playlists, and linked folders in one library." loading="lazy"><span>Linked folders</span></a>
+          <a href="#everywhere"><img src="assets/img/shots/iphone-carplay.jpg" width="880" height="1912" alt="Offly on CarPlay in a car at night." loading="lazy"><span>CarPlay</span></a>
+          <a href="#everywhere"><img src="assets/img/shots/iphone-siri.jpg" width="880" height="1912" alt="Offly Siri shortcuts, including Continue in Offly." loading="lazy"><span>Siri</span></a>
+          <a href="#wifi"><img src="assets/img/shots/iphone-wifi.jpg" width="880" height="1912" alt="Wi-Fi sharing from a Mac to Offly on iPhone." loading="lazy"><span>Wi-Fi transfer</span></a>
+          <a href="#looks"><img src="assets/img/shots/iphone-looks.jpg" width="880" height="1912" alt="Five Offly Looks, with Cassette Pop selected." loading="lazy"><span>Looks</span></a>
+          <a href="#sound"><img src="assets/img/shots/iphone-crossfade.jpg" width="880" height="1912" alt="Crossfade menu blending one title into the next." loading="lazy"><span>Crossfade</span></a>
+          <a href="#everywhere"><img src="assets/img/shots/iphone-widget.jpg" width="880" height="1912" alt="Cassette Pop playback widget on the iPhone Home Screen." loading="lazy"><span>Widgets</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="library" aria-labelledby="library-title">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="side-mark">Side A</span>
+          <div>
+            <p class="eyebrow">Bring your library</p>
+            <h2 id="library-title">A local file player, not a streaming app.</h2>
+            <p class="lede">Offly organizes films, albums, and lectures you already have. Import from the Files app and Photos, link a folder, or beam files over Wi-Fi from a laptop.</p>
+          </div>
+        </div>
+
+        <div class="tracks">
+          <a class="track" href="#import">
+            <span class="track-id">A1</span>
+            <span>
+              <strong>Play files already on this iPhone</strong>
+              <p>MP3, FLAC, AAC, WAV, M4A, MP4, MOV, and more from On This Device.</p>
+            </span>
+          </a>
+          <a class="track" href="#folders">
+            <span class="track-id">A2</span>
+            <span>
+              <strong>Link a folder, including iCloud Drive</strong>
+              <p>Offly plays those files where they are, without copying them onto the device.</p>
+            </span>
+          </a>
+          <a class="track" href="#wifi">
+            <span class="track-id">A3</span>
+            <span>
+              <strong>Transfer without cables</strong>
+              <p>Open a page on your Mac or PC, drop files, and build playlists from the keyboard.</p>
+            </span>
+          </a>
+          <a class="track" href="#music">
+            <span class="track-id">A4</span>
+            <span>
+              <strong>Keep Music app downloads</strong>
+              <p>Songs already downloaded in Apple’s Music app can join the Offly library.</p>
+            </span>
+          </a>
+        </div>
+
+        <article class="feature" id="import">
+          <div class="feature-copy">
+            <p class="kicker">On this device</p>
+            <h3>Import from Files and Photos</h3>
+            <p>Tap + and add titles from the Files app or pull videos out of Photos. Offly keeps audio and video in one library, with search across titles, people, and formats.</p>
+            <p>Resume where you left off. Favorites, Recently Added, In Progress, Lectures, and Lossless sit next to the playlists you make.</p>
+          </div>
+          <figure class="shot shot-crop">
+            <img src="assets/img/shots/iphone-offline.jpg" width="880" height="1912" alt="Offly Overview on iPhone with Continue, playlists, and Files on this device." loading="lazy">
+          </figure>
+        </article>
+
+        <article class="feature feature-flip" id="folders">
+          <div class="feature-copy">
+            <p class="kicker">Linked folders</p>
+            <h3>Your whole library, organised</h3>
+            <p>Point Offly at a folder once. New files appear. Removed ones tidy up. Linked folders, including iCloud Drive, play in place so you are not duplicating a music collection onto the iPhone just to browse it.</p>
+            <p>Files on this device stay a separate room from Linked Folders. Import copies in. Linking leaves the originals where you put them.</p>
+          </div>
+          <figure class="shot shot-crop">
+            <img src="assets/img/shots/iphone-library.jpg" width="880" height="1912" alt="Offly linked folder cards with Link a folder and Files actions." loading="lazy">
+          </figure>
+        </article>
+
+        <article class="feature" id="wifi">
+          <div class="feature-copy">
+            <p class="kicker">Wi-Fi sharing</p>
+            <h3>Beam files from a Mac or PC</h3>
+            <p>Join the same Wi-Fi, start sharing in Offly, and open the address in Safari or Chrome. Scan the QR code if you would rather not type. Drop files onto the page. They show up on the iPhone.</p>
+            <p>The same local page can upload files, build playlists, and tidy the library from a laptop keyboard. Keep Offly open while you work. Guest networks usually block the link.</p>
+          </div>
+          <div>
+            <figure class="mood">
+              <img src="assets/img/mood/wifi.jpg" width="1400" height="933" alt="Laptop, iPhone, and Offly cassette on a desk for wireless transfer." loading="lazy">
+            </figure>
+            <figure class="shot shot-crop shot-follow">
+              <img src="assets/img/shots/iphone-wifi.jpg" width="880" height="1912" alt="Share via Wi-Fi in Offly next to a laptop drop page." loading="lazy">
+            </figure>
+          </div>
+        </article>
+
+        <article class="feature feature-flip" id="music">
+          <div class="feature-copy">
+            <p class="kicker">Music app</p>
+            <h3>Downloads you already paid for</h3>
+            <p>Offly can import songs that are already downloaded in the Music app on this device, then keep that list in sync. Albums, artists, and playlists come along. This is local playback of files on the phone, not Apple Music streaming.</p>
+          </div>
+          <figure class="shot">
+            <img src="assets/img/shots/ipad-library.jpg" width="1400" height="1050" alt="Offly library on iPad with Files, Linked Folders, and recently added artwork." loading="lazy">
+          </figure>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="everywhere" aria-labelledby="everywhere-title">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="side-mark">Side B</span>
+          <div>
+            <p class="eyebrow">Take it with you</p>
+            <h2 id="everywhere-title">CarPlay, Siri, and the Home Screen.</h2>
+            <p class="lede">The same library follows you into the car and onto the lock screen. Hands on the wheel. Playback on the dash.</p>
+          </div>
+        </div>
+
+        <div class="grid-3">
+          <article class="card">
+            <p class="kicker">B1 · CarPlay</p>
+            <h3>Your library in the car</h3>
+            <p>Continue, Library, Playlists, and Favorites on CarPlay. Offly is built as a music app with a full in-car template, not a phone screen mirrored to the dash.</p>
+          </article>
+          <article class="card">
+            <p class="kicker">B2 · Siri</p>
+            <h3>Just ask Siri</h3>
+            <p>Say “Hey Siri, continue in Offly.” Play a playlist, play Favorites, Lectures, or In Progress, and set the equalizer from Shortcuts. No extra setup for the basic phrases.</p>
+          </article>
+          <article class="card">
+            <p class="kicker">B3 · Widgets</p>
+            <h3>Control from the Home Screen</h3>
+            <p>Cassette Pop widgets keep skip, play, and progress on the Home Screen. Pin a playlist and start it in one tap.</p>
+          </article>
+        </div>
+
+        <article class="feature feature-tight">
+          <figure class="mood">
+            <img src="assets/img/mood/car.jpg" width="1400" height="933" alt="Night drive with an Offly cassette on the passenger seat." loading="lazy">
+          </figure>
+          <figure class="shot shot-crop">
+            <img src="assets/img/shots/iphone-carplay.jpg" width="880" height="1912" alt="Offly CarPlay Continue list on a car infotainment screen." loading="lazy">
+          </figure>
+        </article>
+
+        <article class="feature feature-flip">
+          <div class="feature-copy">
+            <p class="kicker">Voice &amp; lock screen</p>
+            <h3>Continue without unlocking</h3>
+            <p>Offly registers as a player Siri already knows. If a phrase misses, ask Siri to add Offly shortcuts, or open them from the Shortcuts app. Background audio keeps lectures and albums going when the phone is in your pocket.</p>
+          </div>
+          <figure class="shot shot-crop">
+            <img src="assets/img/shots/iphone-siri.jpg" width="880" height="1912" alt="Offly and Siri screen with the phrase Hey Siri continue in Offly." loading="lazy">
+          </figure>
+        </article>
+
+        <article class="feature">
+          <div class="feature-copy">
+            <p class="kicker">Home Screen</p>
+            <h3>A cassette on the wallpaper</h3>
+            <p>Interactive widgets show the current title, remaining time, and queue. The Look you pick restyles the widget as well as the player, so Cassette Pop on the Home Screen matches Cassette Pop in the app.</p>
+          </div>
+          <figure class="shot shot-crop">
+            <img src="assets/img/shots/iphone-widget.jpg" width="880" height="1912" alt="Offly Cassette Pop widget with playback controls on the Home Screen." loading="lazy">
+          </figure>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="looks" aria-labelledby="looks-title">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="side-mark">Looks</span>
+          <div>
+            <p class="eyebrow">Five rooms</p>
+            <h2 id="looks-title">Make it yours.</h2>
+            <p class="lede">Looks restyle the app, the player, and the widgets. They change the room around the picture. They never color the video.</p>
+          </div>
+        </div>
+        <div class="looks">
+          <article class="look">
+            <img src="assets/img/looks/cassette-pop.jpg" width="720" height="460" alt="Cassette Pop hardware: cream and navy shell with an amber window." loading="lazy">
+            <h3>Cassette Pop</h3>
+            <p>Playhead-driven reels and candy shell controls. The default Look.</p>
+          </article>
+          <article class="look">
+            <img src="assets/img/looks/cryo-silver.jpg" width="720" height="455" alt="Cryo Silver cassette with a pale ice-blue window." loading="lazy">
+            <h3>Cryo Silver</h3>
+            <p>Cryogenic alloy. Frozen-line meters and ice-blue hardware.</p>
+          </article>
+          <article class="look">
+            <img src="assets/img/looks/amber-cockpit.jpg" width="720" height="464" alt="Amber Cockpit brushed metal bezel with brass screws." loading="lazy">
+            <h3>Amber Cockpit</h3>
+            <p>Brass cockpit. Ivory room, amber oscilloscope, analog knobs.</p>
+          </article>
+          <article class="look">
+            <img src="assets/img/looks/brick-deck.jpg" width="720" height="480" alt="Brick Deck cassette built from colorful toy bricks." loading="lazy">
+            <h3>Brick Deck</h3>
+            <p>Buildable beats. Bright block-by-block playback.</p>
+          </article>
+          <article class="look">
+            <img src="assets/img/looks/stud-wave.jpg" width="720" height="506" alt="Stud Wave toy frame with pastel studio windows." loading="lazy">
+            <h3>Stud Wave</h3>
+            <p>Snap-on sound. A playful spectrum built in color.</p>
+          </article>
+        </div>
+        <figure class="shot shot-crop shot-follow">
+          <img src="assets/img/shots/iphone-looks.jpg" width="880" height="1912" alt="Look gallery on iPhone with Cassette Pop selected among five Looks." loading="lazy">
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" id="sound" aria-labelledby="sound-title">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="side-mark">Sound</span>
+          <div>
+            <p class="eyebrow">Playback</p>
+            <h2 id="sound-title">Tune the path from file to speaker.</h2>
+          </div>
+        </div>
+        <div class="grid-2">
+          <article class="card">
+            <h3>Ten-band equalizer</h3>
+            <p>31 Hz through 16 kHz, with presets for bass, voice, live rooms, rock, and a custom curve. Fine-tune every band, then save the shape you actually listen with.</p>
+          </article>
+          <article class="card">
+            <h3>Crossfade</h3>
+            <p>Blend the end of one title into the next, from 1 to 10 seconds. Albums keep moving. Lectures do not slam into silence.</p>
+          </article>
+          <article class="card">
+            <h3>Sleep timer</h3>
+            <p>Stop after 5, 15, 30, 45, or 60 minutes. Built for falling asleep to a katha, a film, or a long FLAC album.</p>
+          </article>
+          <article class="card">
+            <h3>HiFi, AirPlay, Picture in Picture</h3>
+            <p>HiFi mode uses a music-oriented audio session. AirPlay sends sound to the room. Films can leave the player in Picture in Picture. Shuffle, repeat, and remembered volume sit in Settings.</p>
+          </article>
+        </div>
+        <article class="feature">
+          <figure class="shot">
+            <img src="assets/img/shots/ipad-equalizer.jpg" width="1400" height="1050" alt="Offly ten-band equalizer on iPad with frequency sliders and presets." loading="lazy">
+          </figure>
+          <figure class="shot shot-crop">
+            <img src="assets/img/shots/iphone-crossfade.jpg" width="880" height="1912" alt="Crossfade set to 5 seconds, blending one song into the next." loading="lazy">
+          </figure>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="ipad" aria-labelledby="ipad-title">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="side-mark">iPad</span>
+          <div>
+            <p class="eyebrow">Bigger room</p>
+            <h2 id="ipad-title">The same library, with desk space.</h2>
+            <p class="lede">Offly is a universal app. On iPad the library, Looks, equalizer, and settings get the extra width. Playlists still remember where you stopped.</p>
+          </div>
+        </div>
+        <div class="rail-wrap">
+          <div class="rail">
+            <img class="rail-wide" src="assets/img/shots/ipad-library.jpg" width="1400" height="1050" alt="Offly iPad library." loading="lazy">
+            <img class="rail-wide" src="assets/img/shots/ipad-player.jpg" width="1400" height="1050" alt="Offly iPad player with Cassette Pop hardware." loading="lazy">
+            <img class="rail-wide" src="assets/img/shots/ipad-carplay.jpg" width="1400" height="1050" alt="Offly CarPlay from the iPad screenshot set." loading="lazy">
+            <img class="rail-wide" src="assets/img/shots/ipad-siri.jpg" width="1400" height="1050" alt="Offly Siri sheet on iPad." loading="lazy">
+            <img class="rail-wide" src="assets/img/shots/ipad-settings.jpg" width="1400" height="1050" alt="Offly playback settings on iPad." loading="lazy">
+            <img class="rail-wide" src="assets/img/shots/ipad-equalizer.jpg" width="1400" height="1050" alt="Equalizer on iPad." loading="lazy">
+            <img class="rail-wide" src="assets/img/shots/ipad-crossfade.jpg" width="1400" height="1050" alt="Crossfade on iPad." loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band" id="download">
+      <div class="wrap">
+        <p class="eyebrow"><span class="pill">Free</span> No account to play your files</p>
+        <h2>Offly is free to use.</h2>
+        <p class="lede">Download the offline music and video player for iPhone and iPad. Import your library, link a folder, and take it to the car. You do not pay to play files you already own.</p>
+        <div class="hero-actions">
+          <a class="btn btn-amber" href="https://testflight.apple.com/join/6B8r9tuU">Get Offly free on TestFlight</a>
+          <a class="btn btn-ghost btn-on-dark" href="privacy.html">Privacy</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq" aria-labelledby="faq-title">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="side-mark">FAQ</span>
+          <div>
+            <h2 id="faq-title">Before you download</h2>
+          </div>
+        </div>
+        <div class="faq">
+          <details open>
+            <summary>What is an offline music player?</summary>
+            <p>An offline music player plays files stored on the device, or in a folder you can reach without a network. Offly is a free <a href="offline-music-player.html">offline music player</a> for iPhone and iPad. You add the albums, lectures, and films you already own. Playback does not need a streaming account or a data connection.</p>
+          </details>
+          <details>
+            <summary>Is Offly free?</summary>
+            <p>Yes. Offly is free to use. Playback, import, linked folders, CarPlay, Siri, widgets, the equalizer, crossfade, and Wi-Fi transfer are there to play your own media. There is no streaming subscription and no account required to build a library.</p>
+          </details>
+          <details>
+            <summary>Is this an offline MP3 and FLAC player for iPhone?</summary>
+            <p>Yes. Offly plays local audio including MP3, FLAC, AAC, WAV, M4A, AIFF, CAF, and OGG. It also plays video in MP4, MOV, and M4V. It is a local file player, not a YouTube downloader and not an Apple Music streaming client.</p>
+          </details>
+          <details>
+            <summary>How do I add music and films?</summary>
+            <p>Import from the Files app or Photos, link a folder (including iCloud Drive) so Offly plays files in place, transfer over Wi-Fi from a Mac or PC browser, or bring in songs already downloaded in the Music app on this device.</p>
+          </details>
+          <details>
+            <summary>Does Offly work without internet?</summary>
+            <p>Playback is offline. Files on the device and files in a linked folder you can reach without a network keep playing on a plane, in a basement, or in the car. Wi-Fi sharing needs a local network only between the phone and the laptop, not the public internet.</p>
+          </details>
+          <details>
+            <summary>Does Offly support CarPlay and Siri?</summary>
+            <p>Yes. Offly has CarPlay for Continue, Library, Playlists, and Favorites. Siri phrases include “continue in Offly,” play a playlist, and play Favorites, Lectures, or In Progress. Home Screen widgets keep transport on the cassette.</p>
+          </details>
+          <details>
+            <summary>Where do my files go?</summary>
+            <p>Imported files live in Offly’s on-device library. Linked folders stay where you left them. Offly does not upload your library to a cloud of its own. Read the <a href="privacy.html">privacy policy</a> for the full note.</p>
+          </details>
+          <details>
+            <summary>What devices can run Offly?</summary>
+            <p>iPhone and iPad on iOS 18 and iPadOS 18 or later. CarPlay uses the iPhone in the car. Wi-Fi sharing works with Safari or Chrome on a Mac or PC on the same network.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <p><strong translate="no">Offly</strong> · free offline media player for iPhone and iPad</p>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="offline-music-player.html">Offline music player</a>
+        <a href="#library">Features</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="support.html">Support</a>
+        <a href="https://testflight.apple.com/join/6B8r9tuU">Download free</a>
+        <a href="https://github.com/KarmaAcademy/Offly">GitHub</a>
+      </nav>
+    </div>
+  </footer>
+  <script src="assets/js/site.js"></script>
+</body>
+</html>
