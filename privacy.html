@@ -10,7 +10,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
   <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
   <meta property="og:title" content="Privacy Policy · Offly">
-  <meta property="og:description" content="Your library stays on your device. Read how Offly handles files, Wi-Fi sharing, and Apple system features.">
+  <meta property="og:description" content="Your library stays on your device. Read how Offly handles files, Wi-Fi sharing, and Apple and Android system features.">
   <meta property="og:url" content="https://offly.karmafy.com.au/privacy.html">
   <meta property="og:image" content="https://offly.karmafy.com.au/assets/img/og.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -40,7 +40,7 @@
         <li><a href="index.html#everywhere">CarPlay</a></li>
         <li><a href="support.html">Support</a></li>
         <li><a href="privacy.html" aria-current="page">Privacy</a></li>
-        <li><a href="terms.html">Terms</a></li>
+        <li><a href="index.html#android">Android</a></li>
         <li><a class="app-store-link" href="https://apps.apple.com/app/id6800964292" aria-label="Download Offly on the App Store"><img class="app-store-badge app-store-badge-compact" src="assets/img/download-on-the-app-store.svg" width="120" height="40" alt="Download on the App Store"></a></li>
       </ul>
     </div>
@@ -50,7 +50,7 @@
     <article class="wrap prose">
       <p class="eyebrow">Legal</p>
       <h1>Privacy Policy</h1>
-      <p>Last updated 27 August 2026. Offly is a free offline media player for iPhone and iPad. This page describes how the app handles your media and device information.</p>
+      <p>Last updated 30 October 2026. Offly is an offline media player for iPhone, iPad and Android. This page describes how the app handles your media and device information. The sections up to Offly Premium describe the iPhone and iPad app. <a href="#android">Offly for Android</a> covers where the Android app differs.</p>
 
       <div class="notice">
         <p>Offly does not create an account for you. It does not upload your films, albums, or lectures to an Offly cloud. The library lives on the device, or in folders you choose to link.</p>
@@ -63,12 +63,50 @@
       <h2>Wi-Fi sharing</h2>
       <p>Share via Wi-Fi starts a local web page on your phone so a Mac or PC on the same network can send files and edit playlists. That page is for your local network. It is not a public internet service. Keep Offly open while the session is running. Guest networks often block the connection.</p>
 
+      <h2>Podcasts</h2>
+      <p>When you search for a show, Offly sends the words you typed to Apple’s podcast directory to find matching shows. When you subscribe, Offly downloads the show’s feed, cover art, episodes, and any published transcript straight from the show’s publisher, the same way any podcast app does. That publisher sees an ordinary request from your device, including its IP address. Offly sends nothing else. Your subscriptions and listening progress stay on the device, and new-episode alerts are notifications the app posts on the device itself.</p>
+      <p>On-device transcripts are made on the iPhone with Apple’s speech recognition. The first time, iOS downloads Apple’s speech model for the episode’s language. The episode audio is not uploaded.</p>
+
+      <h2>Song tags and Describe a Playlist</h2>
+      <p>Instrument, tempo and energy tags, playlist descriptions and generated cover images are made on your device with Apple’s sound analysis, Apple Intelligence and Image Playground. Your music, your library and what you type are not sent to Offly or anyone else.</p>
+
+      <h2>Live radio</h2>
+      <p>When you search in the Live tab, your search words go to a Radio Browser server (radio-browser.info), a free community station directory. Offly doesn’t tell Radio Browser which stations you play. A stream comes straight from the station’s own server, which sees your device’s IP address the way any website does. Favourite and recent stations are stored only on your device, and Offly does not record streams.</p>
+
+      <h2>Music servers</h2>
+      <p>If you connect a music server, Offly keeps its address and your username on your device, and your password (and, for Jellyfin, its sign-in token) in the iPhone Keychain. They are sent only to that server, to sign you in and to stream or download your music. Offly has no servers of its own and never sees your credentials or what you play.</p>
+
       <h2>Apple system features</h2>
       <p>CarPlay, Siri, Shortcuts, widgets, AirPlay, Picture in Picture, and the Music app import use Apple system APIs. Title names and playback state may appear on the lock screen, in CarPlay, or in a widget so those features can work. Apple may process that information under Apple’s own policies.</p>
 
+      <h2>Offly Premium</h2>
+      <p>If you buy Offly Premium, or bought a tip or subscription earlier, the purchase goes through Apple’s In-App Purchase system. Offly checks your purchase status with Apple on this device and does not use any other purchase service. Purchases are optional and do not change how the library is stored.</p>
+
+      <h2 id="android">Offly for Android</h2>
+      <p>The Android app is free on Google Play. If you buy Offly Premium on Android, the one-time purchase goes through Google Play’s billing system, and Offly never sees your payment details. Offly checks your purchase status with Google Play on this device, remembers it on the device so Premium features work offline, and does not use any other purchase service. The Android app has no tips or subscriptions. Everything above about Wi-Fi sharing, podcast feeds, live radio and the lack of an Offly account applies to Android too. These parts work differently.</p>
+
+      <h3>Library and folders</h3>
+      <p>Imported files are copied into Offly’s storage on the phone or tablet. When you link a folder, Android asks you to pick it, and Offly can read only that folder. Files in a cloud folder are fetched just before they play. If you allow access to your music, Offly reads the songs already on the device through Android’s media library and plays them in place.</p>
+
+      <h3>Lyrics lookup</h3>
+      <p>Find Lyrics Online in Edit Info searches LRCLIB (lrclib.net), a free community lyrics database. It runs only when you tap it. The search sends the song’s title, artist, album and length, along with your device’s IP address. Offly never looks up lyrics in the background.</p>
+
+      <h3>Podcasts</h3>
+      <p>Show search uses Apple’s podcast directory, as on iPhone. Transcripts come only from the show’s own feed. The Android app does not transcribe episodes on the device, and it has no song tags or Describe a Playlist.</p>
+
+      <h3>Music servers</h3>
+      <p>Server passwords and Jellyfin sign-in tokens are encrypted with a key kept in the Android Keystore. They are sent only to that server, and they are left out of Android backups.</p>
+
+      <h3>Android backup</h3>
+      <p>If backup is turned on for your Google account, Android may save Offly’s settings and its lists to that backup: library titles, playlists, linked folders, podcast subscriptions, saved stations and server addresses. Your media files, downloads, artwork and server passwords are not included. Google stores the backup under its own policies, and Offly cannot read it.</p>
+
+      <h3>Android system features</h3>
+      <p>Android Auto, Google Assistant, home screen widgets, Quick Settings tiles, the media notification and picture in picture use Android and Google system features. Titles and playback state can appear on the lock screen, in the car or in a widget so those features work. Google may process that information under its own policies. Podcast new-episode alerts are notifications the app posts on the device.</p>
+
       <h2>What Offly does not collect</h2>
       <p>Offly does not run a sign-in screen. It does not include a third-party analytics SDK for tracking how you tap through the app. It does not sell your library.</p>
-      <p>Installing from the App Store is handled by Apple. Apple may collect standard App Store information as described in Apple’s privacy documentation.</p>
+      <p>The Android app shows no ads and includes no analytics or crash-reporting service.</p>
+      <p>Installing from TestFlight or the App Store is handled by Apple. Apple may collect standard App Store or TestFlight information as described in Apple’s privacy documentation. Installing from Google Play is handled by Google in the same way, under Google’s privacy policy.</p>
 
       <h2>Children</h2>
       <p>Offly is a general-audience media player. It does not knowingly collect personal information from children. Parents who imported a child’s files onto a shared device can delete those files from the library or unlink the folder at any time.</p>
@@ -86,10 +124,11 @@
       <p><strong translate="no">Offly</strong> · free offline media player</p>
       <nav class="footer-links" aria-label="Footer">
         <a href="index.html">Home</a>
-        <a href="offline-music-player.html">Offline music player</a>
         <a href="support.html">Support</a>
+        <a href="privacy.html" aria-current="page">Privacy</a>
         <a href="terms.html">Terms</a>
-        <a href="https://apps.apple.com/app/id6800964292">App Store</a>
+        <a href="press.html">Press</a>
+        <a href="index.html#faq">FAQ</a>
       </nav>
     </div>
   </footer>

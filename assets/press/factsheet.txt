@@ -1,0 +1,24 @@
+Offly — fact sheet
+Karma Academy
+
+Name: Offly
+One line: Free offline music and video player for iPhone and iPad.
+Price: Free. Optional tips do not unlock playback.
+Platforms: iPhone and iPad. iOS 18 / iPadOS 18.
+Account: None required to build a library or play files.
+Formats: MP3, FLAC, AAC, WAV, M4A, AIFF, CAF, OGG, MP4, MOV, M4V.
+Library: Import from Files or Photos, or link a folder (including iCloud Drive) and play in place.
+Transfer: Wi-Fi sharing from a Mac or PC browser. No cable.
+CarPlay: Continue, Library, Playlists, Favorites.
+Siri: Continue in Offly, play a playlist, play Favorites.
+Widgets: Home Screen transport on the cassette player.
+Sound: Ten-band equalizer, crossfade, sleep timer.
+Privacy: No Offly cloud for your library.
+Install: https://apps.apple.com/app/id6800964292
+Press: https://offly.karmafy.com.au/press.html
+Site: https://offly.karmafy.com.au/
+Privacy policy: https://offly.karmafy.com.au/privacy.html
+Terms: https://offly.karmafy.com.au/terms.html
+Support: https://offly.karmafy.com.au/support.html
+GitHub: https://github.com/KarmaAcademy/Offly
+Contact: GitHub issues on KarmaAcademy/Offly
